@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-04 12:04+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/widgets/posts-grid-widget.php:14
+msgid "Retrive Posts Grid Widgets"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:18
+msgid "Ascendoor Posts Grid Widget"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:130 inc/widgets/posts-tile-widget.php:130
+msgid "Section Title:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:134 inc/widgets/posts-tile-widget.php:134
+msgid "View All Button:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:138 inc/widgets/posts-tile-widget.php:138
+msgid "View All Button URL:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:142 inc/widgets/posts-tile-widget.php:142
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:146 inc/widgets/posts-tile-widget.php:146
+msgid "Number of posts to displace or pass over:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:150 inc/widgets/posts-tile-widget.php:150
+msgid "Select the category to show posts:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:163 inc/widgets/posts-tile-widget.php:163
+msgid "Order By:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:168 inc/widgets/posts-tile-widget.php:168
+#: inc/widgets/two-column-posts-widget.php:186
+msgid "Published Date"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:174 inc/widgets/posts-tile-widget.php:174
+#: inc/widgets/two-column-posts-widget.php:192
+msgid "Alphabetical Order"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:180 inc/widgets/posts-tile-widget.php:180
+msgid "Sort By:"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:185 inc/widgets/posts-tile-widget.php:185
+#: inc/widgets/two-column-posts-widget.php:203
+msgid "Ascending Order"
+msgstr ""
+
+#: inc/widgets/posts-grid-widget.php:191 inc/widgets/posts-tile-widget.php:191
+#: inc/widgets/two-column-posts-widget.php:209
+msgid "Descending Order"
+msgstr ""
+
+#: inc/widgets/posts-tile-widget.php:14
+msgid "Retrive Posts Tile Widgets"
+msgstr ""
+
+#: inc/widgets/posts-tile-widget.php:18
+msgid "Ascendoor Posts Tile Widget"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:14
+msgid "Retrive Two Column Posts Widgets"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:18
+msgid "Ascendoor Two Column Posts Widget"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:139
+msgid "Section Title 1"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:143
+msgid "Select the category 1 to show posts"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:156
+msgid "Section Title 2"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:160
+msgid "Select the category 2 to show posts"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:173
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:177
+msgid "Number of posts to displace or pass over"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:181
+msgid "Order By"
+msgstr ""
+
+#: inc/widgets/two-column-posts-widget.php:198
+msgid "Sort By"
+msgstr ""

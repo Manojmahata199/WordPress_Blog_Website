@@ -1,0 +1,136 @@
+[2024-02-17 09:46:43 : INFO] - Re_Smush_It_Task with attachment ID : 788, autocreated on : February 17, 2024 09:46:43 
+[2024-02-17 09:52:02 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2024-02-17 09:52:02 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-17 09:52:02 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-17 09:52:02 : INFO] - Processing task with ID : 22, and type 'smush' 
+[2024-02-17 09:52:02 : INFO] - Re_Smush_It_Task with attachment ID : 788, autocreated on : February 17, 2024 09:46:43 
+[2024-02-17 09:52:02 : INFO] - File: Screenshot-2024-02-17-151439.png, Compression quality: 60 
+[2024-02-17 09:52:05 : INFO] - Backing up the original image - 2024/02/Screenshot-2024-02-17-151439-updraft-pre-smush-original.png 
+[2024-02-17 09:52:10 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/Screenshot-2024-02-17-151439.png.The file was compressed from 539.58 KB to 148.97 KB, saving 72.39 percent, using WP-Optimize 
+[2024-02-17 09:52:10 : INFO] - Completed processing task with ID : 22, and type 'smush' 
+[2024-02-17 09:52:10 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-17 09:52:10 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2024-02-17 09:52:10 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-17 09:52:10 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-17 11:27:58 : INFO] - Re_Smush_It_Task with attachment ID : 831, autocreated on : February 17, 2024 11:27:58 
+[2024-02-17 11:33:43 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2024-02-17 11:33:43 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-17 11:33:43 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-17 11:33:43 : INFO] - Processing task with ID : 23, and type 'smush' 
+[2024-02-17 11:33:43 : INFO] - Re_Smush_It_Task with attachment ID : 831, autocreated on : February 17, 2024 11:27:58 
+[2024-02-17 11:33:43 : INFO] - File: Screenshot-2024-02-17-165736.png, Compression quality: 60 
+[2024-02-17 11:33:46 : INFO] - Backing up the original image - 2024/02/Screenshot-2024-02-17-165736-updraft-pre-smush-original.png 
+[2024-02-17 11:33:55 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/Screenshot-2024-02-17-165736.png.The file was compressed from 224.37 KB to 224.37 KB, saving 0 percent, using WP-Optimize 
+[2024-02-17 11:33:55 : INFO] - Completed processing task with ID : 23, and type 'smush' 
+[2024-02-17 11:33:55 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-17 11:33:55 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2024-02-17 11:33:55 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-17 11:33:55 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-20 12:59:33 : INFO] - Re_Smush_It_Task with attachment ID : 870, autocreated on : February 20, 2024 12:59:33 
+[2024-02-20 13:06:05 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2024-02-20 13:06:05 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-20 13:06:05 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-20 13:06:05 : INFO] - Processing task with ID : 24, and type 'smush' 
+[2024-02-20 13:06:05 : INFO] - Re_Smush_It_Task with attachment ID : 870, autocreated on : February 20, 2024 12:59:33 
+[2024-02-20 13:06:05 : INFO] - File: weather-20.02.jpg, Compression quality: 60 
+[2024-02-20 13:06:07 : INFO] - Backing up the original image - 2024/02/weather-20.02-updraft-pre-smush-original.jpg 
+[2024-02-20 13:06:11 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/weather-20.02.jpg.The file was compressed from 35.09 KB to 22.68 KB, saving 35.38 percent, using WP-Optimize 
+[2024-02-20 13:06:11 : INFO] - Completed processing task with ID : 24, and type 'smush' 
+[2024-02-20 13:06:11 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-20 13:06:11 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2024-02-20 13:06:11 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-20 13:06:11 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-21 11:43:30 : INFO] - Re_Smush_It_Task with attachment ID : 873, autocreated on : February 21, 2024 11:43:30 
+[2024-02-21 11:49:11 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2024-02-21 11:49:11 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-21 11:49:11 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-21 11:49:11 : INFO] - Processing task with ID : 25, and type 'smush' 
+[2024-02-21 11:49:11 : INFO] - Re_Smush_It_Task with attachment ID : 873, autocreated on : February 21, 2024 11:43:30 
+[2024-02-21 11:49:11 : INFO] - File: amin-sayani.jpg, Compression quality: 60 
+[2024-02-21 11:49:12 : INFO] - Backing up the original image - 2024/02/amin-sayani-updraft-pre-smush-original.jpg 
+[2024-02-21 11:49:14 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/amin-sayani.jpg.The file was compressed from 29.62 KB to 18.74 KB, saving 36.74 percent, using WP-Optimize 
+[2024-02-21 11:49:14 : INFO] - Completed processing task with ID : 25, and type 'smush' 
+[2024-02-21 11:49:14 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-21 11:49:14 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2024-02-21 11:49:14 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-21 11:49:14 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-22 09:14:57 : INFO] - Re_Smush_It_Task with attachment ID : 884, autocreated on : February 22, 2024 09:14:57 
+[2024-02-22 09:20:28 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2024-02-22 09:20:28 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-22 09:20:28 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-22 09:20:28 : INFO] - Processing task with ID : 26, and type 'smush' 
+[2024-02-22 09:20:28 : INFO] - Re_Smush_It_Task with attachment ID : 884, autocreated on : February 22, 2024 09:14:57 
+[2024-02-22 09:20:28 : INFO] - File: hwh-station-e1708588432368.jpg, Compression quality: 60 
+[2024-02-22 09:20:29 : INFO] - Backing up the original image - 2024/02/hwh-station-e1708588432368-updraft-pre-smush-original.jpg 
+[2024-02-22 09:20:32 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/hwh-station-e1708588432368.jpg.The file was compressed from 46.36 KB to 28.12 KB, saving 39.33 percent, using WP-Optimize 
+[2024-02-22 09:20:32 : INFO] - Completed processing task with ID : 26, and type 'smush' 
+[2024-02-22 09:20:32 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-22 09:20:32 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2024-02-22 09:20:32 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-22 09:20:32 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-24 12:50:56 : INFO] - Re_Smush_It_Task with attachment ID : 891, autocreated on : February 24, 2024 12:50:56 
+[2024-02-24 12:52:16 : INFO] - Re_Smush_It_Task with attachment ID : 892, autocreated on : February 24, 2024 12:52:16 
+[2024-02-24 12:57:25 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2024-02-24 12:57:25 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-24 12:57:25 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-24 12:57:25 : INFO] - Processing task with ID : 27, and type 'smush' 
+[2024-02-24 12:57:25 : INFO] - Task with ID 27 and type (smush) failed with error code invalid_file_path - The linked attachment ID does not have a valid file path 
+[2024-02-24 12:57:25 : INFO] - Processing task with ID : 28, and type 'smush' 
+[2024-02-24 12:57:25 : INFO] - Re_Smush_It_Task with attachment ID : 892, autocreated on : February 24, 2024 12:52:16 
+[2024-02-24 12:57:25 : INFO] - File: Screenshot-2024-02-24-181829.jpg, Compression quality: 60 
+[2024-02-24 12:57:27 : INFO] - Backing up the original image - 2024/02/Screenshot-2024-02-24-181829-updraft-pre-smush-original.jpg 
+[2024-02-24 12:57:33 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/Screenshot-2024-02-24-181829.jpg.The file was compressed from 22.74 KB to 22.74 KB, saving 0 percent, using WP-Optimize 
+[2024-02-24 12:57:33 : INFO] - Completed processing task with ID : 28, and type 'smush' 
+[2024-02-24 12:57:33 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-24 12:57:33 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2024-02-24 12:57:33 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-24 12:57:33 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-29 07:54:37 : INFO] - Re_Smush_It_Task with attachment ID : 909, autocreated on : February 29, 2024 07:54:37 
+[2024-02-29 08:34:27 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2024-02-29 08:34:27 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-29 08:34:27 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-29 08:34:27 : INFO] - Processing task with ID : 29, and type 'smush' 
+[2024-02-29 08:34:27 : INFO] - Re_Smush_It_Task with attachment ID : 909, autocreated on : February 29, 2024 07:54:37 
+[2024-02-29 08:34:27 : INFO] - File: LAST-DATE-SM-POST-WEB-BANNER.jpg, Compression quality: 60 
+[2024-02-29 08:34:28 : INFO] - Backing up the original image - 2024/02/LAST-DATE-SM-POST-WEB-BANNER-updraft-pre-smush-original.jpg 
+[2024-02-29 08:34:33 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/LAST-DATE-SM-POST-WEB-BANNER.jpg.The file was compressed from 92.48 KB to 56.77 KB, saving 38.61 percent, using WP-Optimize 
+[2024-02-29 08:34:33 : INFO] - Completed processing task with ID : 29, and type 'smush' 
+[2024-02-29 08:34:33 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-29 08:34:33 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2024-02-29 08:34:33 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-29 08:34:33 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-29 08:39:11 : INFO] - Re_Smush_It_Task with attachment ID : 911, autocreated on : February 29, 2024 08:39:11 
+[2024-02-29 08:44:54 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2024-02-29 08:44:54 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-02-29 08:44:54 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-02-29 08:44:54 : INFO] - Processing task with ID : 30, and type 'smush' 
+[2024-02-29 08:44:54 : INFO] - Re_Smush_It_Task with attachment ID : 911, autocreated on : February 29, 2024 08:39:11 
+[2024-02-29 08:44:54 : INFO] - File: INCOMPLETE-ENTRIES-EMAIL-WEB-BANNER.jpg, Compression quality: 60 
+[2024-02-29 08:44:56 : INFO] - Backing up the original image - 2024/02/INCOMPLETE-ENTRIES-EMAIL-WEB-BANNER-updraft-pre-smush-original.jpg 
+[2024-02-29 08:45:00 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/INCOMPLETE-ENTRIES-EMAIL-WEB-BANNER.jpg.The file was compressed from 95.67 KB to 58.60 KB, saving 38.75 percent, using WP-Optimize 
+[2024-02-29 08:45:00 : INFO] - Completed processing task with ID : 30, and type 'smush' 
+[2024-02-29 08:45:00 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-02-29 08:45:00 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2024-02-29 08:45:00 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-02-29 08:45:00 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2024-02-29 10:39:42 : INFO] - Re_Smush_It_Task with attachment ID : 916, autocreated on : February 29, 2024 10:39:42 
+[2024-03-02 13:16:03 : INFO] - Re_Smush_It_Task with attachment ID : 928, autocreated on : March 02, 2024 01:16:03 
+[2024-03-02 13:27:10 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2024-03-02 13:27:10 : DEBUG] - Lock option (updraft_lock_smush, wp_options) was created in the database 
+[2024-03-02 13:27:10 : INFO] - Lock (updraft_lock_smush, wp_options) acquired after initialising the database 
+[2024-03-02 13:27:10 : INFO] - Processing task with ID : 31, and type 'smush' 
+[2024-03-02 13:27:10 : INFO] - Re_Smush_It_Task with attachment ID : 916, autocreated on : February 29, 2024 10:39:42 
+[2024-03-02 13:27:10 : INFO] - File: download.jpg, Compression quality: 60 
+[2024-03-02 13:27:11 : INFO] - Backing up the original image - 2024/02/download-updraft-pre-smush-original.jpg 
+[2024-03-02 13:27:12 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/02/download.jpg.The file was compressed from 11.37 KB to 9.95 KB, saving 12.47 percent, using WP-Optimize 
+[2024-03-02 13:27:12 : INFO] - Completed processing task with ID : 31, and type 'smush' 
+[2024-03-02 13:27:12 : INFO] - Processing task with ID : 32, and type 'smush' 
+[2024-03-02 13:27:12 : INFO] - Re_Smush_It_Task with attachment ID : 928, autocreated on : March 02, 2024 01:16:03 
+[2024-03-02 13:27:12 : INFO] - File: Screenshot-2024-03-02-184533.png, Compression quality: 60 
+[2024-03-02 13:27:14 : INFO] - Backing up the original image - 2024/01/Screenshot-2024-03-02-184533-updraft-pre-smush-original.png 
+[2024-03-02 13:27:18 : INFO] - Successfully optimized the image - /home/u825790153/domains/sportskolkata.in/public_html/wp-content/uploads/2024/01/Screenshot-2024-03-02-184533.png.The file was compressed from 273.54 KB to 74.58 KB, saving 72.74 percent, using WP-Optimize 
+[2024-03-02 13:27:18 : INFO] - Completed processing task with ID : 32, and type 'smush' 
+[2024-03-02 13:27:18 : INFO] - Lock option (updraft_lock_smush, wp_options) released 
+[2024-03-02 13:27:18 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2024-03-02 13:27:18 : INFO] - Lock option (updraft_lock_smush, wp_options) was deleted from the database 
+[2024-03-02 13:27:18 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 

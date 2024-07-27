@@ -1,0 +1,421 @@
+/**
+Theme Name: Fresh News
+Theme URI: https://ascendoor.com/themes/fresh-news/
+Author: Ascendoor
+Author URI: https://ascendoor.com/
+Version: 1.0.1
+Requires PHP: 5.6
+Tested up to: 6.0
+Requires at least: 5.0
+Template: ascendoor-magazine
+Text Domain: fresh-news
+Description: Fresh News is a child theme of Ascendoor Magazine – It is a full-featured magazine theme that is ideal for news, magazines, blogs, publishing, and review sites. It features a simple, magazine-style homepage with a banner slider, carousel posts, and several customizable widget sections. Fresh News theme is easy to set up, especially if you use the pre-built demo. This theme is simple to use, cross-browser compatible, responsive, and highly customizable. Check the demo at: https://demos.ascendoor.com/fresh-news/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: custom-background, custom-logo, custom-colors, custom-menu, featured-images, threaded-comments, translation-ready, theme-options, footer-widgets, full-width-template, left-sidebar, right-sidebar, news, blog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Fresh News is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*Banner Section*/
+.banner-section {
+	margin-bottom: 30px;
+}
+
+.banner-section .banner-slider .slick-track {
+	line-height: 0;
+}
+
+.banner-section.banner-section-style-2 .banner-section-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+}
+
+@media (max-width: 768px) {
+	.banner-section.banner-section-style-2 .banner-section-wrapper {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.banner-section.banner-section-style-2 .banner-section-wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+}
+
+.banner-section.banner-section-style-2 .banner-section-wrapper .slider-part:nth-child(1) {
+	grid-column-end: span 4;
+	grid-row-end: span 4;
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.banner-section.banner-section-style-2 .banner-section-wrapper .slider-part:nth-child(1) {
+		grid-column: span 4;
+		grid-row: span 1;
+	}
+}
+
+.banner-section.banner-section-style-2 .banner-section-wrapper .slider-part:nth-child(1) .mag-post-single {
+	min-height: 450px;
+}
+
+@media (max-width: 600px) {
+	.banner-section.banner-section-style-2 .banner-section-wrapper .slider-part:nth-child(1) .mag-post-single {
+		min-height: 350px;
+	}
+}
+
+.banner-section.banner-section-style-2 .banner-section-wrapper .slider-part:nth-child(1) .mag-post-single .mag-post-detail .mag-post-title {
+	font-size: var(--font-size-md);
+}
+
+.banner-section.banner-section-style-2 .banner-section-wrapper .banner-gird-single {
+	grid-column-end: span 2;
+	grid-row-end: span 2;
+}
+
+@media (max-width: 768px) {
+	.banner-section.banner-section-style-2 .banner-section-wrapper .banner-gird-single {
+		grid-column: span 2;
+		grid-row: span 1;
+	}
+}
+
+.banner-section.banner-section-style-2 .banner-section-wrapper .banner-gird-single:nth-child(3), .banner-section.banner-section-style-2 .banner-section-wrapper .banner-gird-single:nth-child(2) {
+	grid-column-end: span 2;
+	grid-row-end: span 3;
+}
+
+@media (max-width: 768px) {
+	.banner-section.banner-section-style-2 .banner-section-wrapper .banner-gird-single:nth-child(3), .banner-section.banner-section-style-2 .banner-section-wrapper .banner-gird-single:nth-child(2) {
+		grid-column: span 2;
+		grid-row: span 1;
+	}
+}
+/*End Banner Section*/
+
+/*Posts Grid Widget*/
+.magazine-grid-section.style-2 .magazine-grid-section-wrapper {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 600px) {
+	.magazine-grid-section.style-2 .magazine-grid-section-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	.magazine-grid-section.style-2 .magazine-grid-section-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+.magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(1),
+.magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(2) {
+	grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+	.magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(1),
+	.magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(2) {
+		grid-column: span 1;
+	}
+}
+
+body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+@media (max-width: 600px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single {
+	grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single {
+		grid-column: span 1;
+	}
+}
+
+body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(2), body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(1) {
+	grid-column: span 3;
+}
+
+@media (max-width: 600px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(2), body:not(.no-sidebar) .primary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(1) {
+		grid-column: span 1;
+	}
+}
+
+aside#secondary.widget-area .magazine-grid-section.style-1 .magazine-grid-section-wrapper,
+.footer-widget-single .magazine-grid-section.style-1 .magazine-grid-section-wrapper,
+.secondary-widgets-section .magazine-grid-section.style-1 .magazine-grid-section-wrapper {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+aside#secondary.widget-area .magazine-grid-section.style-2 .magazine-grid-section-wrapper,
+.footer-widget-single .magazine-grid-section.style-2 .magazine-grid-section-wrapper,
+.secondary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+aside#secondary.widget-area .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(1),
+aside#secondary.widget-area .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(2),
+.footer-widget-single .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(1),
+.footer-widget-single .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(2),
+.secondary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(1),
+.secondary-widgets-section .magazine-grid-section.style-2 .magazine-grid-section-wrapper .mag-post-single:nth-child(2) {
+	grid-column: span 1;
+}
+/*End Posts Grid Widget*/
+
+/*Tile Widget*/
+.magazine-tile-section.style-2 .magazine-tile-section-wrapper {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+@media (max-width: 767px) {
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single {
+	grid-column: span 2;
+}
+
+@media (max-width: 480px) {
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single {
+		grid-column: span 1;
+	}
+}
+
+.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child {
+	grid-row: span 2;
+	grid-column: span 3;
+}
+
+@media (max-width: 480px) {
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+}
+
+@media (min-width: 481px) {
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child .mag-post-detail .mag-post-title {
+		font-size: var(--font-size-md);
+	}
+}
+
+.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3),
+.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) {
+	grid-column: span 3;
+}
+
+@media (max-width: 480px) {
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3),
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) {
+		grid-column: span 1;
+	}
+}
+
+@media (min-width: 481px) {
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3) .mag-post-detail .mag-post-title,
+	.magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) .mag-post-detail .mag-post-title {
+		font-size: var(--font-size-md);
+	}
+}
+
+body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+@media (max-width: 480px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+}
+
+body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+@media (max-width: 767px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single {
+		grid-column: span 1;
+	}
+}
+
+@media (max-width: 480px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+}
+
+@media (max-width: 480px) {
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3),
+	body:not(.no-sidebar) .primary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) {
+		grid-column: span 1;
+	}
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-1 .magazine-tile-section-wrapper,
+.footer-widget-single .magazine-tile-section.style-1 .magazine-tile-section-wrapper,
+.secondary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child,
+.footer-widget-single .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child,
+.secondary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child {
+	grid-column: span 1;
+	grid-row: span 1;
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child .mag-post-detail .mag-post-title,
+.footer-widget-single .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child .mag-post-detail .mag-post-title,
+.secondary-widgets-section .magazine-tile-section.style-1 .magazine-tile-section-wrapper .mag-post-single:first-child .mag-post-detail .mag-post-title {
+	font-size: var(--font-size-base);
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper,
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper,
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single,
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single,
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single {
+	grid-column: span 1;
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child,
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child,
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child {
+	grid-row: span 1;
+	grid-column: span 1;
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child .mag-post-detail .mag-post-title,
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child .mag-post-detail .mag-post-title,
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:first-child .mag-post-detail .mag-post-title {
+	font-size: var(--font-size-base);
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3),
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2),
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3),
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2),
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3),
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) {
+	grid-column: span 1;
+}
+
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3) .mag-post-detail .mag-post-title,
+aside#secondary.widget-area .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) .mag-post-detail .mag-post-title,
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3) .mag-post-detail .mag-post-title,
+.footer-widget-single .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) .mag-post-detail .mag-post-title,
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(3) .mag-post-detail .mag-post-title,
+.secondary-widgets-section .magazine-tile-section.style-2 .magazine-tile-section-wrapper .mag-post-single:nth-child(2) .mag-post-detail .mag-post-title {
+	font-size: var(--font-size-base);
+}
+/*End Tile Widget*/
+
+/*Two Column Posts Widget*/
+.magazine-double-category-section .magazine-double-category-section-wrapper {
+	 display: grid;
+	 grid-gap: 30px;
+	 grid-template-columns: repeat(2, 1fr);
+}
+ @media (max-width: 480px) {
+	 .magazine-double-category-section .magazine-double-category-section-wrapper {
+		 grid-template-columns: repeat(1, 1fr);
+	}
+}
+ .magazine-double-category-section .magazine-double-category-section-wrapper .magazine-category-single .mag-post-single:not(:last-child) {
+	 margin-bottom: 30px;
+}
+ @media (max-width: 480px) {
+	 .magazine-double-category-section .magazine-double-category-section-wrapper .magazine-category-single .mag-post-single:not(:last-child).list-design .mag-post-category, .magazine-double-category-section .magazine-double-category-section-wrapper .magazine-category-single .mag-post-single:not(:last-child).list-design .mag-post-excerpt {
+		 display: none;
+	}
+}
+ aside#secondary.widget-area .magazine-double-category-section .magazine-double-category-section-wrapper, .footer-widget-single .magazine-double-category-section .magazine-double-category-section-wrapper, .secondary-widgets-section .magazine-double-category-section .magazine-double-category-section-wrapper {
+	 grid-template-columns: repeat(1, 1fr);
+}
+ aside#secondary.widget-area .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-title, .footer-widget-single .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-title, .secondary-widgets-section .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-title {
+	 font-size: var(--font-size-sm);
+}
+ aside#secondary.widget-area .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-category, .footer-widget-single .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-category, .secondary-widgets-section .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-category, aside#secondary.widget-area .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-excerpt, .footer-widget-single .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-excerpt, .secondary-widgets-section .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-excerpt {
+	 display: none;
+}
+ .footer-widget-single .magazine-double-category-section .magazine-double-category-section-wrapper .mag-post-single.list-design .mag-post-meta {
+	 display: none;
+}
+
+/*End Two Column Posts Widget*/
+
